@@ -17,7 +17,7 @@
 
 .contato__texto {
     font-weight: 300;
-    margin: 1em 0;
+    margin: 2em 0;
 }
 
 .contato__email{
@@ -25,6 +25,7 @@
     border: 1px solid var(--azul);
     border-radius: 24px;
     width: 90%;
+    margin: 2em 0;
 }
 
 .contato__email::placeholder {
@@ -32,4 +33,12 @@
     color: var(--azul);
     background-image: url("../img/Email.svg") no-repeat;
     padding-left: 2em;
+}
+
+.contato__pesquisar {
+    background: var(--azul);
+    color: var(--branco);
+    padding: 1em 1em;
+    border-radius: 10px;
+    margin: 0 35%;
 }
